@@ -19,11 +19,11 @@ The consesus mechanism chosen for this layer2 plasma chain is PoA. We provide sa
 
 ### Accounts
 
-Set-Plasma chains use an account model similar to Ethereum. This is in contrast to the UTXO model used by Plasma-MVP and more similar to Plasma-Cash+Debit. 
+Set-Plasma chains use an account model similar to Ethereum. This is in contrast to the UTXO model used by Plasma-MVP and more similar to Plasma-Cash+Debit or virtual state-channels. 
 
 #### State Objects
 
-State is represented in Bitcoin and Plasma-MVP as a collection of unspent transaction outputs. This limits computation to that of a stack based scripting language. While many things can be achieved in such a model, this implementation attempts to produce state in a account model. We produce "state objects" that represent the storage and ownership of arbitratry state.
+State is represented in Bitcoin and Plasma-MVP as a collection of unspent transaction outputs. This limits computation to that of a stack based scripting language. While many things can be achieved in such a model, this implementation attempts to produce state in an account model. We produce "state objects" that represent the storage and ownership of arbitratry state.
 
 #### Ownership
 
